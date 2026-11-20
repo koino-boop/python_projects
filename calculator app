@@ -1,0 +1,29 @@
+  GNU nano 9.1                main.py
+              #calculator
+first =int(input("enter your number:"))
+second=int(input("enter your second number:"))
+def addition(first_number, second_number):
+    return first_number + second_number
+final=addition(first, second)
+print(final)
+
+def subtraction(first_number, second_number):
+    return first_number - second_number
+sub = subtraction(first, second)
+print(sub)
+
+st = int(input("enter your first number"))
+nd = int(input("enter your second number"))
+def multiply(first_num, second_num):
+    return first_num * second_num
+mult = multiply(st, nd)
+print(mult)
+
+fourth_num = int(input("enter your num:"))
+fifth_num = int (input("enter num:"))
+def division(num_1, num_2):
+    if num_2 == 0:
+        return("cant divide by zero")
+    return num_1 / num_2
+divide = division(fourth_num ,fifth_num)
+print(divide)
